@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  christmas_checker:
+    image: christmas_checker:1.0
+    build:
+      context: .
+    ports:
+      - "15000:80"

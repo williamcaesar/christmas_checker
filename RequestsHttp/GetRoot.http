@@ -1,0 +1,6 @@
+GET /is_christmas HTTP/1.1
+Host: localhost:5000
+Content-Type: application/json
+cache-control: no-cache
+
+###
